@@ -25,7 +25,8 @@ if __name__ == '__main__':
     while True:
         if check_bal(var):
             print(f'{var} are typed right Parenthesis')
+            break
         else:
             print(f'{var} are typed wrong Parenthesis')
-    
+            break
     print(check_bal(var))
